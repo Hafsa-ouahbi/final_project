@@ -1,0 +1,64 @@
+.container-parent {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 8vw;
+    background-color: #3c3c3c22;
+    padding-block: 1vh;
+    width: 100%;
+}
+.child1 {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.yellow {
+    color: $myclr;
+}
+.but1 {
+    border: none;
+    background-color: $myclr;
+    padding: 1vh 2vw;
+    border-radius: 50px;
+    &:hover {
+        background-color: darken($myclr, 18%);
+        cursor: pointer;
+    }
+}
+header{
+    // font-family: 'Pacifico', cursive;
+    background-color: #3c3c3c42;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+}
+nav {
+    padding-inline: 7vw;
+    select {
+        border: none;
+        padding: 0.5vh 1vw;
+        border-radius: 5px;
+        background-color: transparent;
+        color: $mywhite;
+        &:hover {
+            cursor: pointer;
+            color: $myclr;
+        }
+    
+    }
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    padding-block: 2vh;
+    a {
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: $mywhite;
+        &:hover {
+            color: $myclr;
+        }
+    }
+}
