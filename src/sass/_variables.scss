@@ -1,3 +1,11 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
 $myclr : rgb(255, 176, 59);
 $mywhite : #ffffff;
 $myblack : #000000;
+$font1 : 'Poppins', sans-serif;
+
+$spacer: 20px;
+@for $i from 1 through 50 {
+    $spacers: map-merge( $spacers, ($i: $i * $spacer));
+};

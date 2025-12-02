@@ -10,36 +10,98 @@
 
 <body>
     <header>
-            <div class=" container-parent">
-                <div class="child1 text-white">
-                    <span class="d-flex gap-0 fw-bold"><i class="bi bi-phone yellow"></i>+1 5589 55488 55</span>
-                    <span class="d-flex gap-1 fw-bold"><i class="bi bi-clock yellow"></i>Mon-Sat: 11:00 AM - 23:00 PM</span>
+        <div class=" container-parent">
+            <div class="child1 text-white">
+                <span class="d-flex gap-0 fw-bold"><i class="bi bi-phone yellow"></i>+1 5589 55488 55</span>
+                <span class="d-flex gap-1 fw-bold"><i class="bi bi-clock yellow"></i>Mon-Sat: 11:00 AM - 23:00 PM</span>
+            </div>
+            <div class="child2">
+                <button class="but1 fw-bold text-white">Book a table</button>
+            </div>
+        </div>
+        <nav class="d-flex justify-content-between align-items-center container-nav">
+            <div class="logo">
+                <h1 class="fw-bold text-white">Delicious</h1>
+            </div>
+            <ul class="d-flex mb-0 ">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Special</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Chefs</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><select name="" id="">
+                        <option value="option1">Dropdown</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselh" class="carousel slide my-carousel h-75" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselh" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselh" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselh" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner gg">
+                <div class="carousel-item active">
+                    <img src="./public/img/images/hero-carousel/hero-carousel-1.jpg" class="d-block w-100 blure"
+                        alt="...">
+                    <div class="carousel-caption pb-22  d-md-block fw-bold caption-gap">
+                        <h2 class="text-white fw-bold pb-1 ">Welcome to <span class="yellow">Delicious</span></h2>
+                        <p class="pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="button-parent">
+                            <button class="bu2">Our Menu</button>
+                            <button class="bu2">Book a Table</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="child2">
-                    <button class="but1 fw-bold text-white">Book a table</button>
+                <div class="carousel-item ">
+                    <img src="./public/img/images/hero-carousel/hero-carousel-2.jpg" class="d-block w-100 blure" alt="...">
+                    <div class="carousel-caption pb-22  d-md-block fw-bold">
+                        <h2 class="text-white fw-bold pb-1 ">At vero eos et accusamus</h2>
+                        <p class="pb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="button-parent">
+                            <button class="bu2">Our Menu</button>
+                            <button class="bu2">Book a Table</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./public/img/images/hero-carousel/hero-carousel-3.jpg" class="d-block w-100 blure " alt="...">
+                    <!-- d-md-block makes the caption in the center in every screen -->
+                    <div class="carousel-caption pb-22 d-md-block fw-bold">
+                        <h2 class="text-white fw-bold pb-1">Temporibus autem quibusdam</h2>
+                        <p class="pb-1">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                            aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                            nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                        <div class="button-parent">
+                            <button class="bu2">Our Menu</button>
+                            <button class="bu2">Book a Table</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <nav class="d-flex justify-content-between align-items-center container-nav">
-                <div class="logo">
-                    <h1 class="fw-bold text-white">Delicious</h1>
-                </div>
-                <ul class="d-flex mb-0 ">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">Special</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="">Chefs</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><select name="" id="">
-                            <option value="option1">Dropdown</option>
-                            <option value="option2">Option 2</option>
-                            <option value="option3">Option 3</option>
-                        </select></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-    </header>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselh" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselh" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
