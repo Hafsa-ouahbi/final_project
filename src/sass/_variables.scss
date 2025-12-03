@@ -4,8 +4,11 @@ $myclr : rgb(255, 176, 59);
 $mywhite : #ffffff;
 $myblack : #000000;
 $font1 : 'Poppins', sans-serif;
-
+$bg1 :rgb(255, 250, 243) ;
 $spacer: 20px;
+$brown: rgb(67, 63, 57);
+$soft-yellow : #fff7eb;
+
 @for $i from 1 through 50 {
     $spacers: map-merge( $spacers, ($i: $i * $spacer));
 };
