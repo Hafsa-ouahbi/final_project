@@ -1,0 +1,79 @@
+.event {
+    background-image: linear-gradient(rgba(2, 23, 33, 0.395), rgba(2, 23, 33, 0.395),),
+    url("../../../../public/img/images/events-bg.jpg");
+    // background-image: url("../../../../public/img/images/events-bg.jpg");
+    background-size: cover;
+    height: 80vh;
+    // filter: blur(2px);
+}
+// makes the caption static that's mean a normal flow , the default
+.carousel-events .carousel-caption {
+  position: static !important;
+}
+.eve1 {
+    // background-color: red;
+    display: flex;
+    padding: 10vh 8vw;
+    gap: 3vw;
+}
+.eve2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+    gap: 3vh;
+}
+.i-eve {
+    color: $mywhite;
+    font-size: 25px;
+}
+.price-eve {
+    color: $mywhite;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pri{
+    position: relative;
+    display: flex;
+}
+.pri::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: $myclr;
+    height: 0.4vh;
+    width: 5vw;
+}
+.i-ve {
+    color: $myclr;
+}
+.pp {
+    color: $mywhite;
+    gap: 0.2vw;
+    font-weight: bold;
+}
+.eve22 {
+    display: flex;
+    padding: 10vh 8vw;
+    gap: 3vw;
+    text-align: left !important;
+}
+.h22 {
+    text-align: left;
+}
+.p20 {
+    text-align: left;
+}
+.left-eve {
+    display: flex;
+    flex-direction: column;
+    gap:3vh ;
+}
+.sty { 
+    border-radius: 50%;
+    height: 15px !important;
+    width: 15px !important;
+    &:focus {
+        background-color: $myclr !important;
+    }
+}
