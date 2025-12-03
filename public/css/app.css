@@ -1,10 +1,14 @@
 @charset "UTF-8";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@font-face {
+  font-family: "myfont";
+  src: url("../../public/FONT/Satisfynrml/Satisfy-Regular.ttf");
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -29779,6 +29783,10 @@ nav select:hover {
   color: rgb(255, 176, 59);
 }
 
+.logo {
+  font-family: "myfont";
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -29834,6 +29842,11 @@ my-carousel .carousel-item img {
   height: 100vh;
 }
 
+h2, .h2 {
+  font-family: "myfont";
+  font-size: 40px;
+}
+
 .about1 {
   width: 50%;
   color: rgb(67, 63, 57);
@@ -29885,6 +29898,8 @@ video {
 
 .ab22 h4, .ab22 .h4 {
   color: rgb(67, 63, 57);
+  font-family: "myfont", sans-serif;
+  font-weight: bold;
 }
 
 .top-about {
@@ -29916,6 +29931,11 @@ video {
   color: #ffffff;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .gri2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -29931,6 +29951,7 @@ video {
 
 .chil {
   gap: 0.5vw;
+  display: flex;
 }
 
 .chil ~ p {
@@ -29939,6 +29960,73 @@ video {
 
 .grayy {
   color: rgb(161, 161, 161);
+}
+
+.price {
+  color: rgb(255, 176, 59);
+  font-weight: bold;
+}
+
+.grid22 {
+  display: flex;
+  gap: 1vw;
+}
+
+.price2 {
+  display: flex;
+}
+.price2 i {
+  color: rgb(255, 176, 59);
+}
+
+.menu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+}
+
+.head-menu {
+  padding-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+.head-menu button {
+  width: fit-content;
+  background-color: #fff7eb;
+  color: rgb(255, 176, 59);
+  border: none;
+  padding: 1vh 1.5vw;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.head-menu h2, .head-menu .h2 {
+  font-family: "myfont", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.clrr {
+  color: rgb(255, 176, 59);
+}
+
+.all-but {
+  display: flex;
+  gap: 1.8vw;
+}
+
+.but-chil {
+  background: none;
+  border: none;
+  color: rgb(161, 161, 161);
+  font-family: "myfont", sans-serif;
+  font-weight: bold;
+}
+.but-chil:hover {
+  color: rgb(255, 176, 59);
 }
 
 * {

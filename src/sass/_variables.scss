@@ -13,3 +13,8 @@ $mygray : rgb(161, 161, 161);
 @for $i from 1 through 50 {
     $spacers: map-merge( $spacers, ($i: $i * $spacer));
 };
+
+@font-face {
+    font-family: "myfont";
+    src: url("../../public/FONT/Satisfynrml/Satisfy-Regular.ttf") ;
+}

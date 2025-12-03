@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 .gri2 {
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
@@ -11,6 +15,7 @@
 }
 .chil {
     gap: 0.5vw;
+    display: flex;
 }
 .chil ~ p {
         color: $mygray;
@@ -19,5 +24,65 @@
     color: $mygray;
 }
 .price {
-    
+    color: $myclr;
+    font-weight: bold;
+}
+.grid22 {
+    display: flex;
+    gap: 1vw;
+}
+.price2 {
+    display: flex;
+    i {
+        color: $myclr;
+    }
+}
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+.head-menu {
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    button {
+        width: fit-content;
+        background-color: $soft-yellow;
+        color: $myclr;
+        border: none;
+        padding: 1vh 1.5vw;
+        border-radius: 30px;
+        font-weight: bold;
+    }
+}
+.head-menu {
+    h2 {
+        font-family: "myfont" , sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+.clrr {
+    color: $myclr;
+}
+.all-but {
+    display: flex;
+    gap: 1.8vw;
+    // border: none;
+    // background-color: transparent;
+}
+.but-chil {
+    background: none;
+    border: none;
+    color: $mygray;
+    font-family: "myfont" , sans-serif;
+    font-weight: bold;
+    &:hover {
+        color: $myclr;
+    }
 }
