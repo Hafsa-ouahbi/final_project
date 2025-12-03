@@ -29916,6 +29916,31 @@ video {
   color: #ffffff;
 }
 
+.gri2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-inline: 6vw;
+  gap: 6vh;
+}
+
+.im3 {
+  width: 90px;
+  border-radius: 50%;
+  border: rgb(236, 236, 236) solid 10px;
+}
+
+.chil {
+  gap: 0.5vw;
+}
+
+.chil ~ p {
+  color: rgb(161, 161, 161);
+}
+
+.grayy {
+  color: rgb(161, 161, 161);
+}
+
 * {
   padding: 0;
   margin: 0;

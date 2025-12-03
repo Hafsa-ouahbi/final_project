@@ -8,7 +8,8 @@ $bg1 :rgb(255, 250, 243) ;
 $spacer: 20px;
 $brown: rgb(67, 63, 57);
 $soft-yellow : #fff7eb;
-
+$menu :rgb(236, 236, 236);
+$mygray : rgb(161, 161, 161);
 @for $i from 1 through 50 {
     $spacers: map-merge( $spacers, ($i: $i * $spacer));
 };

@@ -1,0 +1,23 @@
+.gri2 {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding-inline: 6vw;
+    gap: 6vh;
+}
+.im3 {
+    width: 90px;
+    border-radius: 50%;
+    border: $menu solid 10px;
+}
+.chil {
+    gap: 0.5vw;
+}
+.chil ~ p {
+        color: $mygray;
+    }
+.grayy {
+    color: $mygray;
+}
+.price {
+    
+}
