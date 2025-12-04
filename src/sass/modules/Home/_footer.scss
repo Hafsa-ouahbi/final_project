@@ -31,3 +31,34 @@
     align-items: center;
     padding-top: 4vh;
 }
+// before the header
+.fin {
+    gap: 0.1vw;
+    flex-direction: column;
+}
+.go {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    // padding-top: 4vh ;
+}
+.cc {
+    height: 70vh;
+}
+.formf {
+    align-items: center;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.formf input {
+    outline: none;
+    &:focus {
+        border-color: $myclr;
+    }
+}
+.formf textarea {
+    margin-left: 2vw;
+    &:focus {
+        border-color: $myclr;
+    }
+}
