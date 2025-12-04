@@ -11,6 +11,13 @@ $soft-yellow : #fff7eb;
 $menu :rgb(236, 236, 236);
 $mygray : rgb(161, 161, 161);
 $bgbook :rgb(249, 249, 249);
+
+$clr: (
+    "myclr": $myclr,
+    "soft": $soft-yellow
+);
+
+$theme-colors: map-merge($clr , $theme-colors);
 @for $i from 1 through 50 {
     $spacers: map-merge( $spacers, ($i: $i * $spacer));
 };
